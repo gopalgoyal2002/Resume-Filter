@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>upload</h1>
+
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <label for="resumes">Resumes</label>
+    <input type="file" id='resumes' multiple name="resumes">
+    <label for="job_description">Job Description</label>
+    <input type="file"  id='job_description'  name="job_description">
+    <button type="submit">submit</button>
+</form>
+{% for i in jd_url %}
+    <p>Uploaded JD:<a href="{{i}}">{{i}}</a></p>
+{% endfor %}
+<Div class="scorll" 
+style=" margin:4px, 4px;
+margin-top: 50px;
+margin-bottom: 50px;
+
+padding:4px;
+background-color:  antiquewhite;
+border-style: groove;
+width: 60vw;
+height: 300px;
+overflow-x: hidden;
+overflow-y: auto;
+text-align:justify;">
+{% for url,name,email in resume_url %}
+    <p>Uploaded Resumes:<a href="{{url}}">{{url}}</a>    Name:{{name}}   Email:{{email}}</p>
+{% endfor %}
+
+</Div>
+
+
+<H1>Top Resumes</H1>
+<Div class="scorll" 
+style=" margin:4px, 4px;
+margin-top: 50px;
+padding:4px;
+background-color: antiquewhite;
+border-style: groove;
+width: 60vw;
+height: 300px;
+overflow-x: hidden;
+overflow-y: auto;
+text-align:justify;">
+{% for score,url in res %}
+    <p>Score: {{score}}  <a href="{{url}}">{{url}}</a>   </p>
+{% endfor %}
+</Div>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+Essential:
+3+ years of experience as a data scientist.
+Hands on expertise in Predictive Modelling, Machine Learning, Customer Segmentation, EDA etc.
+Proficiency with SQL, Python.
+Knowledge of data structures, relational data, and big data platforms.
+Demonstrate experience and understanding of Machine Learning, e.g.: linear/logistics regression, random forest, SVM, neural networks, etc.
+Proficiency with machine and deep learning frameworks such as TensorFlow, Keras.
+Experience with techniques to retrieve actionable feature insight from deep neural networks.
+
+Desirable:
+Metal & Mining sector experience.
+Contribution to industry/open source communities.
+Experience of working within a multicultural, global environment.
+Experience of working in a fast moving and changing environment.
+Experience with NLP and linguistic approaches for retrieval, interpretation, and pushing of insight from scientific literature.
+
+Personal Skills:
+Strong communication skills, both written and verbal
+Ability to manage stakeholders' expectations and work in a high-pressure environment. Demonstrate strong ownership & commitment to the cause of customer success.
+A team player capable of high performance, flexibility in a dynamic working environment and the ability to lead
